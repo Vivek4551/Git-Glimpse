@@ -108,7 +108,7 @@ function updateProfile(data){
 
 // Switch to dark mode 
 function darkModeProperties() {
-    root.setProperty("--lm-bg", "#141D2F");
+    root.setProperty("--lm-bg", "#141D2F"); // changing the properties of global variable in css using setProperty method.
     root.setProperty("--lm-bg-content", "#1E2A47");
     root.setProperty("--lm-text", "white");
     root.setProperty("--lm-text-alt", "white");
@@ -118,7 +118,8 @@ function darkModeProperties() {
     root.setProperty("--lm-icon-bg", "brightness(1000%)");
     darkMode = true;
     console.log("darkmode changed to " + darkMode);
-    localStorage.setItem("dark-mode", true);  console.log("setting dark mode to false");
+    localStorage.setItem("dark-mode", true);  
+    console.log("setting dark mode to false");
     console.log("setting dark mode to true");
 }
 
@@ -144,7 +145,8 @@ function init() {
     //darMode = false -> light mode enable karna h 
     darkMode = false;
     //HW
-  // const prefersDarkMode = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+    // const prefersDarkMode = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+
     const value = localStorage.getItem("dark-mode");
     if(value === null) {
         console.log("null k andar");
@@ -159,7 +161,6 @@ function init() {
         console.log("false k andar");
         lightModeProperties();
     }
-
 
     //by default, meri khud ki info show krre h UI pr
     getUserData(url + "Vivek4551");
