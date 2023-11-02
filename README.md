@@ -2,7 +2,7 @@
 
 ->Live Link :- https://vivek-git-glimpse.vercel.app/
 
-This project is created by using HTML, CSS, Javascript. It is a data fetching kind of app which fetches data of user frommgithub including repos , followers etc.
+This project is created by using HTML, CSS, Javascript. It is a data fetching kind of app which fetches data of user from github including repos , followers etc.
 
 It has features like dark mode and light mode as well as user details and if not found than message area.
 
