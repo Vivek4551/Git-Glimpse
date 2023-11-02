@@ -15,11 +15,11 @@ It has features like dark mode and light mode as well as user details and if not
 
 (2).User's Details  according to search input
 
-![Screenshot 2023-11-03 at 12 34 05 AM](https://github.com/Vivek4551/Git-Glimpse/assets/77227718/ae351aa0-143d-4c34-bb0c-26f2f85ed101)
+![Screenshot 2023-11-03 at 12 41 57 AM](https://github.com/Vivek4551/Git-Glimpse/assets/77227718/eeb915f3-0a3f-46ad-8cc9-13dbbfc785bc)
 
 (3). If user not found then message 
 
-![Screenshot 2023-11-03 at 12 33 59 AM (2)](https://github.com/Vivek4551/Git-Glimpse/assets/77227718/54decc91-ef9a-48b7-95e6-6988012786ff)
+![Screenshot 2023-11-03 at 12 42 14 AM](https://github.com/Vivek4551/Git-Glimpse/assets/77227718/e14b0050-b098-44ac-ae0f-3c41936f06a4)
 
 (4).If no input Given
 
